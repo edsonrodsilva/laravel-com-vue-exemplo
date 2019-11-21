@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style>
-.router-link-exact-active {color: #4bd02a !important;}
+.router-link-exact-active {color: #185f06 !important;}
 .spacing-custon{padding: 40px 0;}
 .color-white{color: #FFF !important;}
 </style>
