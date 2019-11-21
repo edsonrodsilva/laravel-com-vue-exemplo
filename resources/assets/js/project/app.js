@@ -15,14 +15,12 @@ Vue.use(VueSwal)
  */
 Vue.component('preloader-component', require('./components/layouts/PreloaderComponent'))
 
-
 // Instância do Vue JS, e seletor
 const app = new Vue({
     router,
     store,
     el: '#app',
 })
-
 
 store.dispatch('checkLogin')
         .then(() => router.push({name: 'dashboard'}))
